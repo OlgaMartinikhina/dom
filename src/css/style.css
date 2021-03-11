@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+  }
+  
+  .container div {
+    height: 120px;
+    width: calc(25% - 5px);
+    border: 1px solid blue;
+  }
